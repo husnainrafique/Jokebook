@@ -1,0 +1,76 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "jokeBook",
+    "collectionId": "30777a2a-a764-48ff-9a8f-ecb5cc64fa57",
+    "dateExported": "2024-11-10T21:02:22.288Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "45808e4f-7a4e-4d80-b8cb-7f7bc9a5da16",
+            "colId": "30777a2a-a764-48ff-9a8f-ecb5cc64fa57",
+            "containerId": "",
+            "name": "add joke",
+            "url": "http://localhost:3000/jokebook/joke/new",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-11-10T15:34:36.465Z",
+            "modified": "2024-11-10T15:35:03.365Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"category\": \"funnyJoke\",\n  \"setup\": \"Why don't skeletons fight each other?\",\n  \"delivery\": \"They don't have the guts.\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0ca6dbd5-bccb-4ae5-9d9d-e24d8c634bb1",
+            "colId": "30777a2a-a764-48ff-9a8f-ecb5cc64fa57",
+            "containerId": "",
+            "name": "add category",
+            "url": "http://localhost:3000/jokebook/category/new",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-11-10T15:36:15.600Z",
+            "modified": "2024-11-10T19:17:04.753Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"funnyJok1e\"\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "e4ca2cb1-e83b-470c-b0dd-073e403a74ae",
+            "colId": "30777a2a-a764-48ff-9a8f-ecb5cc64fa57",
+            "containerId": "",
+            "name": "get category",
+            "url": "http://localhost:3000/jokebook/categories",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-11-10T16:06:02.524Z",
+            "modified": "2024-11-10T16:06:55.606Z",
+            "headers": []
+        },
+        {
+            "_id": "2ce4476a-0256-4d8c-b919-9877f7d83a9f",
+            "colId": "30777a2a-a764-48ff-9a8f-ecb5cc64fa57",
+            "containerId": "",
+            "name": "get joke",
+            "url": "http://localhost:3000/jokebook/joke/Music?limit=2",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-11-10T16:07:34.995Z",
+            "modified": "2024-11-10T17:35:50.506Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "limit",
+                    "value": "2",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "R-FUQtB5u4-Z1Q2mgWpYYg3-DHoFrtPq4C2R7mJZO5SziprU1A_sczenZJBOYnbuNckpiNegyaiDmw-rzyq_Rg"
+}

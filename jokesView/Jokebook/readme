@@ -1,0 +1,14 @@
+# Project Setup
+
+## 1. Install Dependencies
+
+First, ensure you have all the required dependencies installed by running:
+
+```bash
+npm install
+
+npm run migrate:up
+
+npm run seed
+
+npm start

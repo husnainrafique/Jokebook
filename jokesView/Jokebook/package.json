@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "sequelize": "^6.37.5",
+    "sequelize-cli": "^6.6.2",
+    "sqlite3": "^5.1.7"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "migrate:up": "npx sequelize-cli db:migrate --config config/config.json",
+     "seed": "npx sequelize-cli db:seed:all --config config/config.json"
+  }
+}
